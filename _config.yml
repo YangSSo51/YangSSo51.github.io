@@ -1,0 +1,99 @@
+remote_theme : sujaykundu777/devlopr-jekyll
+
+title: YangSSo
+subtitle: YangSSo51's blog
+description: >- # this means to ignore newlines until "baseurl:"
+  devlopr-jekyll is a Jekyll Theme Built For Developers
+
+url: "https://YangSSo51.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "" # the subpath of your site, e.g. /blog
+
+urls:
+    - text: Blog
+      url: /blog
+    - text: About Me
+      url: /about
+    - text: Contact Me
+      url : /contact
+    - text: Styleguide
+      url: /styleguide
+
+# Edit these details 
+
+author_logo: profile.png
+author: Yang So Young
+author_bio: Hi, My Name is Yang So Young.   
+author_email: "maysoyoung@gmail.com"
+author_location: Korea
+author_website_url: "https://yangsso51.github.io"
+
+author_education_details:
+              - college_logo: kpu.png
+                college_name: KPU
+                college_url: http://www.kpu.ac.kr/index.do?sso=ok
+                description: 
+                visibility: true
+
+author_project_details:
+              - project_thumbnail: dangdangs.png
+                project_title: DangDangs
+                project_description: A Website for managing pet's schedule
+                project_url: https://dangdangs.herokuapp.com
+                visibility: true
+              - project_thumbnail: honeypolicy.png
+                project_title: Honeypolicy
+                project_description: A Website for finding policies for individuals
+                project_url: https://honeypolicy.herokuapp.com
+                visibility: true
+
+# social links
+github_username:  YangSSo51
+
+# wakatime username (coding activity)
+wakatime_username: yangsso51
+
+# formspree (contact form)
+formspree_email: maysoyoung@gmail.com
+
+# syntax highlighter
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# google analytics
+# google_analytics: UA-46783401-10 
+
+# Choose what to show ( can be true or false)
+show_author_education_details: true
+show_author_project_details: true
+
+# dont touch this unless required
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  # - jekyll-archives
+
+# pagination of posts
+paginate: 8
+per_page: 4
+paginate_path: "/blog/page/:num/"
+
+# minify 
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
+
+# Archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#   layout: archive
+#   permalinks:
+#     category: '/category/:name/'
+
