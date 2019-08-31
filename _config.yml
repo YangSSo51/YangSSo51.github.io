@@ -50,7 +50,7 @@ author_project_details:
 github_username:  YangSSo51
 
 # wakatime username (coding activity)
-wakatime_username: YangSSo51
+wakatime_username: yangsso51
 
 # formspree (contact form)
 formspree_email: maysoyoung@gmail.com
@@ -61,7 +61,7 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10 
+# google_analytics: UA-46783401-10 
 
 # Choose what to show ( can be true or false)
 show_author_education_details: true
