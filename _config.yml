@@ -1,5 +1,7 @@
+remote_theme : sujaykundu777/devlopr-jekyll
+
 title: YangSSo
-subtitle:YangSSo51's blog
+subtitle: YangSSo51's blog
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a Jekyll Theme Built For Developers
 
@@ -95,4 +97,3 @@ compress_html:
 #   permalinks:
 #     category: '/category/:name/'
 
-remote_theme : sujaykundu777/devlopr-jekyll
